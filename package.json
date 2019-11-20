@@ -1,0 +1,14 @@
+{
+  "name": "met-collection-v2",
+  "version": "1.0.0",
+  "description": "A project to explore the Metroplitan Museum of Art's extensive collection via their API. It is built from scratch using React, Webpack, and MaterialUI.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tavius Kotavy",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^3.7.2"
+  }
+}

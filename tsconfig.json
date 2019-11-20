@@ -1,0 +1,48 @@
+// This config is based off of NYU's 2019 WorkLink project, where I originally learned React and TypeScript.
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@src/*": [
+        "src/*"
+      ],
+      // Examples from worklink client/admin
+      // "@client/*": [
+      //   "src/Client/*"
+      // ],
+      // "@admin/*": [
+      //   "src/Admin/*"
+      // ],
+      // "@shared/*": [
+      //   "src/Shared/*"
+      // ]
+    },
+    "module": "es6",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "target": "es2018",
+    "jsx": "react",
+    "rootDir": "src",
+    "sourceMap": true,
+    "allowJs": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "importHelpers": true, // importing helper functions from tslib
+    "noEmitHelpers": true, // disable emitting inline helper functions
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "allowUnreachableCode": false
+  },
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
